@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bank Account</title>
+    <link rel="stylesheet" href="../style/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-light" style="background-color: darkgreen">
+      <div class="container-fluid">
+        <a class="navbar-brand" style="color: white" href="menu.html">HOME</a>
+        <div>
+          <ul class="nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="accinfo.html">Account Info</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="balance.html">Balance</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="deposit.html">Deposit</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="withdraw.html">Withdraw</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="exit" href="">Exit</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <h1>JavaScript - A Simple Bank Account</h1>
+    <h2>Select your choice:</h2>
+    <ol class="choice_list">
+      <li id="info"><a href="accinfo.html"> View Account Information </a></li>
+      <li id="balance"><a href="balance.html">Total Account Balance </a></li>
+      <li id="deposit"><a href="deposit.html">Deposit Amount </a></li>
+      <li id="withdraw"><a href="withdraw.html"> Withdraw Amount </a></li>
+      <li id="exit"><a href="#">Exit</a></li>
+    </ol>
+    <script src="../scripts/exit.js"></script>
+  </body>
+</html>
